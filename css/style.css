@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,12 +22,12 @@ header {
 }
 
 .header {
-	display: flex;
+    display: flex;
     align-items: center;
 }
 
 .logo {
-	height: 120px;
+    height: 120px;
 }
 
 .logo-text {
@@ -40,9 +40,9 @@ header {
 }
 
 .phone {
-	margin-left: auto;
-	padding: 15px;
-	font-size: 25px;
+    margin-left: auto;
+    padding: 15px;
+    font-size: 25px;
     font-weight: bold;
     color: #fff;
     background-color: #20B2AA;
@@ -64,7 +64,7 @@ header {
 }
 
 .header-list-item {
-	list-style: none;
+    list-style: none;
     float: left;
     font-size: 20px;
     font-weight: bold;
@@ -234,7 +234,7 @@ table, td {
 
 /*  footer  */
 footer {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .footer-logo {
