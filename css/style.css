@@ -9,9 +9,14 @@
 body {
     background-image: url(../img/mokume.jpg);
     background-color: rgba(255,255,255,0.5);
-    background-blend-mode:lighten;
+    background-blend-mode: lighten;
 }
 
+p, td {
+    color: #666666;
+}
+
+/*  header  */
 header {
     margin: 0 auto;
 }
@@ -49,6 +54,10 @@ header {
     border-radius: 50px;
 }
 
+.phone p {
+    color: #fff;
+}
+
 .phone i {
     margin-right: 5px;
 }
@@ -77,6 +86,7 @@ header {
     background-color: #808080;
 }
 
+/*  main  */
 .main-photo {
     text-align: center;
     padding: 20px;
@@ -107,7 +117,17 @@ header {
     border-radius: 50px;
 }
 
+/*  pickup  */
 .pick-up-img {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.pick-up-img img {
+    width: 350px;
+    height: 250px;
+    border: 5px inset;
 }
 
 .pick-up-text {
@@ -115,10 +135,36 @@ header {
     justify-content: space-around;
 }
 
-.pick-up-text-item {
-    color: #666666;
+/*  about  */
+.about-box {
+    width: 70%;
+    margin: 0 auto;
 }
 
+.about-box-item1, .about-box-item2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-box-item1 img {
+    width: 400px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+.about-box-item1 p, .about-box-item2 p {
+    line-height: 40px;
+}
+
+.about-movie iframe {
+    margin-left: 40px;
+    border: ridge 10px;
+}
+
+
+
+/*  point  */
 .point-box {
     width: 60%;
     margin: 0 auto;
@@ -131,16 +177,17 @@ header {
     border-radius: 20px;
 }
 
+/*  newdata  */
 .new-data-box {
     text-align: center;
 }
 
 .new-data-box p {
     margin-bottom: 15px;
-    color: #666666;
     font-size: 18px;
 }
 
+/*  access  */
 .access-box {
     display: flex;
     justify-content: center;
@@ -153,7 +200,6 @@ header {
 
 .access-text p {
     font-size: 20px;
-    color: #666666;
     margin-bottom: 15px;
     border-bottom: 1px solid;
 }
@@ -163,6 +209,7 @@ header {
     align-items: center;
 }
 
+/*  contact  */
 table, td {
     border: solid 1px black;
 }
@@ -177,10 +224,6 @@ table, td {
 .form-text {
     font-size: 20px;
     text-align: center;
-    color: #666666;
-}
-
-.form-input {
 }
 
 .button {
@@ -196,6 +239,7 @@ table, td {
     border-radius: 20px;
 }
 
+/*  footer  */
 footer {
 	margin: 0 auto;
 }
@@ -231,5 +275,4 @@ footer {
 
 .footer-text {
     text-align: center;
-    color: #666666;
 }
