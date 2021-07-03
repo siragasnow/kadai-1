@@ -34,14 +34,9 @@ header {
     margin-left: 20px;
 }
 
-.logo-text p {
-    color: #666666;
-}
-
 .main-title {
     font-size: 25px;
     font-weight: bold;
-    color: #666666;
 }
 
 .phone {
@@ -77,11 +72,11 @@ header {
     padding: 0 15px 0 15px;
 }
 
-.header-list-item a {
+.header-list-item a, .footer-list-item a {
     color: #FFFFEE;
 }
 
-.header-list-item:hover {
+.header-list-item:hover, .footer-list-item:hover {
     color: #8b4513;
     background-color: #808080;
 }
@@ -161,8 +156,6 @@ header {
     margin-left: 40px;
     border: ridge 10px;
 }
-
-
 
 /*  point  */
 .point-box {
@@ -262,15 +255,6 @@ footer {
     font-weight: bold;
     line-height: 100px;
     padding: 0 15px 0 15px;
-}
-
-.footer-list-item a {
-    color: #FFFFEE;
-}
-
-.footer-list-item:hover {
-    color: #8b4513;
-    background-color: #808080;
 }
 
 .footer-text {
