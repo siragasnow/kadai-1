@@ -119,15 +119,15 @@ header {
     margin-bottom: 10px;
 }
 
+.pick-up-img-item {
+    width: 30%;
+    text-align: center;
+}
+
 .pick-up-img img {
     width: 350px;
     height: 250px;
     border: 5px inset;
-}
-
-.pick-up-text {
-    display: flex;
-    justify-content: space-around;
 }
 
 /*  about  */
@@ -259,4 +259,39 @@ footer {
 
 .footer-text {
     text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    .phone {
+        display: none;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .main-photo img {
+        width: 90%;
+        height: 400px;
+        border-radius: 50px;
+    }
+
+    .title-style {
+        width: 80%;
+    }
+
+    .pick-up-img {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .pick-up-img-item {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .pick-up-img img {
+        width: 80%;
+        border: 5px inset;
+        margin-bottom: 20px;
+    }
 }
