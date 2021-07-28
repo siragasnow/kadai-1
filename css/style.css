@@ -278,6 +278,7 @@ footer {
 
     .title-style {
         width: 80%;
+        margin-bottom: 40px;
     }
 
     .pick-up-img {
@@ -293,5 +294,37 @@ footer {
         width: 80%;
         border: 5px inset;
         margin-bottom: 20px;
+    }
+
+    .about-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-box-item1 img {
+        width: 50%;
+    }
+
+    .about-box-item1 p, .about-box-item2 p {
+        line-height: 30px;
+    }
+
+    .about-box-item2 {
+        flex-wrap: wrap-reverse;
+    }
+
+    .about-movie {
+        width: 100%;
+    }
+
+    .about-movie iframe {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: ridge 10px;
+    }
+
+    .point-box {
+        width: 80%;
     }
 }
