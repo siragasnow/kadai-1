@@ -16,7 +16,7 @@
 https://docs.google.com/spreadsheets/d/19NUFjsLINPtQ53HPH0hZ5dfEbQyiEwWJbtXWQLuCkW0/edit#gid=0
 
 
-# WEBデザイン講習　課題
+# WEBデザイン講習　課題②
 
 ## 概要
 課題①で作成したサイトをレスポンシブ対応させる
