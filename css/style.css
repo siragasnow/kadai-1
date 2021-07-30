@@ -209,7 +209,7 @@ table, td {
 
 .contact-form {
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 40%;
     height: 300px;
 }
@@ -224,7 +224,7 @@ table, td {
 }
 
 .button-design {
-    width: 100px;
+    width: 30%;
     font-size: 20px;
     color: #fff;
     background-color: #20B2AA;
@@ -237,20 +237,23 @@ footer {
     margin: 0 auto;
 }
 
+.footer-box {
+    background-color: #C0C0C0;
+}
+
 .footer-logo {
     float: left;
     height: 100px;
+    padding-left: 20px;
 }
 
 .footer-list {
     display: flex;
     justify-content: space-around;
-    background-color: #C0C0C0;
 }
 
 .footer-list-item {
     list-style: none;
-    float: left;
     font-size: 20px;
     font-weight: bold;
     line-height: 100px;
@@ -259,6 +262,7 @@ footer {
 
 .footer-text {
     text-align: center;
+    background-color: #dcdcdc;
 }
 
 @media only screen and (max-width: 768px){
@@ -326,5 +330,50 @@ footer {
 
     .point-box {
         width: 80%;
+    }
+
+    .access-box {
+        flex-wrap: wrap-reverse;
+    }
+
+    .access-box iframe {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .access-text {
+        margin: 0 auto;
+    }
+
+    .access-text p {
+        text-align: center;
+        border-bottom: none;
+    }
+
+    #contact {
+        display: none;
+    }
+
+    .footer-box {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-logo{
+        align-items: center;
+        height: 120px;
+    }
+
+    .footer-list {
+        flex-flow: column;
+        margin: 0 auto;
+    }
+
+    .footer-list-item {
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 50px;
+        text-align: center;
     }
 }

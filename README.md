@@ -15,3 +15,14 @@
 ## ワイヤーフレーム
 https://docs.google.com/spreadsheets/d/19NUFjsLINPtQ53HPH0hZ5dfEbQyiEwWJbtXWQLuCkW0/edit#gid=0
 
+
+# WEBデザイン講習　課題
+
+## 概要
+課題①で作成したサイトをレスポンシブ対応させる
+
+## サイトテーマ
+メガネサイト
+
+## ワイヤーフレーム
+https://docs.google.com/spreadsheets/d/19NUFjsLINPtQ53HPH0hZ5dfEbQyiEwWJbtXWQLuCkW0/edit#gid=523764760
